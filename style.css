@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+body { 
+   background-image: linear-gradient(-45deg, #e3ddd9 20%, #b4dff0de 80%);
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    width: 150px;
+}
+.header ul {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
+    text-decoration: none;
+}
+  
+.header li {
+    list-style: none;
+    font-size: 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.a {
+    text-decoration: none;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 10px 0 10px 0;
+}
+
+.noticias {
+    width: 70%;
+    margin: 15px 0;
+    padding: 15px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noticias h1 {
+    font-size: 20px;
+    color: rgb(230, 207, 131);
+    text-align: justify;
+}
+.noticias p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Delicious Handrawn', cursive;
+    
+}
+button {
+    background-color: rgb(201, 110, 6);
+    color: rgb(247, 188, 188);
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.btn-primary {
+    border: solid 2px hsl(340, 98%, 49%);
+    background-color: hsl(0, 78%, 75%);
+}
+  
+.btn-primary:focus,
+.btn-primary:hover {
+    box-shadow: none;
+    border: solid 2px hsl(340, 98%, 49%);
+    background-color: hsl(0, 78%, 75%);
+}
